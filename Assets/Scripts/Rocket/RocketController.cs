@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class RocketController : MonoBehaviour
 {
-    [Tooltip("Thruster Speed Multiplier")][SerializeField] float thrusterSpeed = 100f;
-    [Tooltip("Rotation Speed Multiplier")][SerializeField] float rotationSpeed = 10f;
+    [Tooltip("Thruster Speed Multiplier")] [SerializeField] float thrusterSpeed = 100f;
+    [Tooltip("Rotation Speed Multiplier")] [SerializeField] float rotationSpeed = 10f;
 
     [Tooltip("Left Thruster")] [SerializeField] Transform leftThruster;
     [Tooltip("Right Thruster")] [SerializeField] Transform rightThruster;
@@ -28,7 +28,12 @@ public class RocketController : MonoBehaviour
 
     private void CheckInputs()
     {
-        if(Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)) // Checks for thrusting
+        if (GameManager.instance.GetCurrentState() != GameManager.GameState.GamePlay) // Ensure that the player only control the rocket when the game is playing.
+        {
+            return;
+        }
+
+        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)) // Checks for thrusting
         {
             rigidbody.AddRelativeForce(Vector3.up * Time.timeScale * thrusterSpeed);
         }
@@ -39,7 +44,7 @@ public class RocketController : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)) // Checks for Clockwise rotation
         {
-            rigidbody.AddForceAtPosition(rightThruster.up* rotationSpeed * Time.timeScale, rightThruster.position);
+            rigidbody.AddForceAtPosition(rightThruster.up * rotationSpeed * Time.timeScale, rightThruster.position);
         }
     }
 
@@ -51,7 +56,7 @@ public class RocketController : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         Debug.Log(collision.gameObject.tag);
-        if(collision.gameObject.CompareTag(tag_Obstacle))
+        if (collision.gameObject.CompareTag(tag_Obstacle))
         {
             // Take Damage
         }

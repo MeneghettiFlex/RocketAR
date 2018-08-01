@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33253957647967464}
   - component: {fileID: 23964830591505762}
   - component: {fileID: 136392693928706760}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Thruster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 4808976333186994}
   - component: {fileID: 54268801387245080}
   - component: {fileID: 114069882701672056}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Rocket
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 33746352600575330}
   - component: {fileID: 23266664586420334}
   - component: {fileID: 135357475837203664}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Dome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 33390488449609616}
   - component: {fileID: 23353889254724694}
   - component: {fileID: 136207618700133246}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Thruster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 33211861421400074}
   - component: {fileID: 23185178899542448}
   - component: {fileID: 136086983823605712}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MainBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111,7 +111,7 @@ GameObject:
   - component: {fileID: 33800918577535714}
   - component: {fileID: 23066939213801308}
   - component: {fileID: 135573844491860548}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Dome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,7 +127,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4137788814223614}
   - component: {fileID: 96318239707663770}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -143,8 +143,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4562590660880482}
   - component: {fileID: 65500381047785216}
-  m_Layer: 0
-  m_Name: LandingPad
+  m_Layer: 9
+  m_Name: LandingGear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -159,7 +159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4514172889229768}
   - component: {fileID: 96032391081762328}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175,7 +175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4446162170422166}
   - component: {fileID: 96550684966644440}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 4329058496775074}
   - component: {fileID: 33527324366192794}
   - component: {fileID: 23740480155856594}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LeftThruster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -209,7 +209,7 @@ GameObject:
   - component: {fileID: 4337579822701566}
   - component: {fileID: 33976403929375016}
   - component: {fileID: 23046314135655532}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: RightThruster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,8 +225,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4078291052840134}
   - component: {fileID: 65964898610807848}
-  m_Layer: 0
-  m_Name: LandingPad
+  m_Layer: 9
+  m_Name: LandingGear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 33539437831230386}
   - component: {fileID: 23976268426826062}
   - component: {fileID: 135932309220758946}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Dome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 33591052427439568}
   - component: {fileID: 23470370275110314}
   - component: {fileID: 135223631016790452}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Dome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -279,7 +279,7 @@ GameObject:
   - component: {fileID: 33424518943529262}
   - component: {fileID: 23383409032447372}
   - component: {fileID: 136325668704656064}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Thruster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -297,7 +297,7 @@ GameObject:
   - component: {fileID: 33472068681767186}
   - component: {fileID: 23511112659242716}
   - component: {fileID: 136312497813003620}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Thruster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -313,8 +313,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4100475227227304}
   - component: {fileID: 65302831000006630}
-  m_Layer: 0
-  m_Name: LandingPad
+  m_Layer: 9
+  m_Name: LandingGear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -329,7 +329,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4418691497958042}
   - component: {fileID: 96542786105471312}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,7 +347,7 @@ GameObject:
   - component: {fileID: 33416833175467834}
   - component: {fileID: 23196195738385694}
   - component: {fileID: 135681941931743572}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Dome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -363,8 +363,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4567109760986776}
   - component: {fileID: 65228861567045236}
-  m_Layer: 0
-  m_Name: LandingPad
+  m_Layer: 9
+  m_Name: LandingGear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -636,7 +636,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1002048289815298}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 3.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4372171321029552}
@@ -1188,7 +1188,7 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1960234040126982}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: cbe5c09c5d9f246208ae54afb6fea718, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1200,7 +1200,7 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1824124034881404}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: cbe5c09c5d9f246208ae54afb6fea718, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1212,7 +1212,7 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1575319812629202}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: cbe5c09c5d9f246208ae54afb6fea718, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1224,7 +1224,7 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1688022487559706}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: cbe5c09c5d9f246208ae54afb6fea718, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2

@@ -54,6 +54,32 @@ MonoBehaviour:
     m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
     m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
+    m_serializeEntries: []
+    m_readOnly: 0
+  - m_name: UnityEditor.AddressableAssets.BundledAssetGroupProcessor Group
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 9f242ca1678b14a2593b5649b530c72a
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 31d0152e2b30f498c83c8ed6dc9aaf6a
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: 7ecf168a4fd4d46ec8a567c923977e49
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
     m_serializeEntries:
     - m_guid: 29a7f65b9aa1347acb90ee438efdc4a1
       m_address: LandingPad
