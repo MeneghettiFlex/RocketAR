@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_defaultGroup: 3a3b747eea94841d5b2f50f101bde52e
+  m_groups:
+  - m_name: Built In Data
+    m_data:
+      m_serializedData: []
+    m_guid: a4638bc36318644c48dc64b52d664f1e
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.PlayerDataAssetGroupProcessor
+    m_serializeEntries:
+    - m_guid: EditorSceneList
+      m_address: EditorSceneList
+      m_readOnly: 1
+      m_serializedLabels: []
+    - m_guid: Resources
+      m_address: Resources
+      m_readOnly: 1
+      m_serializedLabels: []
+    m_readOnly: 1
+  - m_name: Default Local Group
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 9f242ca1678b14a2593b5649b530c72a
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 31d0152e2b30f498c83c8ed6dc9aaf6a
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: 3a3b747eea94841d5b2f50f101bde52e
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
+    m_serializeEntries:
+    - m_guid: 29a7f65b9aa1347acb90ee438efdc4a1
+      m_address: LandingPad
+      m_readOnly: 0
+      m_serializedLabels:
+      - Stations
+    - m_guid: 2b2c1fdde53e442e5913e4a2c9343750
+      m_address: LaunchPad
+      m_readOnly: 0
+      m_serializedLabels:
+      - Stations
+    - m_guid: f0e2a19113c7f4c94b8751532891e11e
+      m_address: RefuellingStation
+      m_readOnly: 0
+      m_serializedLabels:
+      - Stations
+    m_readOnly: 0
+  m_buildSettings:
+    m_compression:
+      compression: 3
+      level: 5
+      blockSize: 131072
+    m_compileScriptsInVirtualMode: 0
+    m_bundleBuildPath: Temp/AddressableAssetsBundles
+  m_profileSettings:
+    m_profiles:
+    - m_inheritedParent: 
+      m_id: a6a8563cccdbe430ebf4052e6d333b3b
+      m_profileName: Default
+      m_values:
+      - m_id: 42495b6850dda4eac87419b05f6cd482
+        m_value: 1
+      - m_id: cc41cd0db00604fa48f0b9756df028dd
+        m_value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_id: 9f242ca1678b14a2593b5649b530c72a
+        m_value: Assets/StreamingAssets/com.unity.addressables/[BuildTarget]
+      - m_id: 31d0152e2b30f498c83c8ed6dc9aaf6a
+        m_value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_id: bfc321a48d0b6472493ae3b2d3896a14
+        m_value: ServerData/[BuildTarget]
+      - m_id: 7c3ff9c7085f545b38f4b65dcb7c8f80
+        m_value: http://localhost/[BuildTarget]
+    m_profileEntryNames:
+    - m_id: b3a2011cf063d4b348a8e4b8f6dd1630
+      m_name: <custom>
+      m_inlineUsage: 1
+    - m_id: 42495b6850dda4eac87419b05f6cd482
+      m_name: ContentVersion
+      m_inlineUsage: 0
+    - m_id: cc41cd0db00604fa48f0b9756df028dd
+      m_name: BuildTarget
+      m_inlineUsage: 0
+    - m_id: 9f242ca1678b14a2593b5649b530c72a
+      m_name: LocalBuildPath
+      m_inlineUsage: 0
+    - m_id: 31d0152e2b30f498c83c8ed6dc9aaf6a
+      m_name: LocalLoadPath
+      m_inlineUsage: 0
+    - m_id: bfc321a48d0b6472493ae3b2d3896a14
+      m_name: RemoteBuildPath
+      m_inlineUsage: 0
+    - m_id: 7c3ff9c7085f545b38f4b65dcb7c8f80
+      m_name: RemoteLoadPath
+      m_inlineUsage: 0
+  m_labelTable:
+    m_labelNames:
+    - default
+    - Stations
+  m_activeProfileId: a6a8563cccdbe430ebf4052e6d333b3b
