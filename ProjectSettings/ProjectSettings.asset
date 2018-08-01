@@ -665,9 +665,9 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+  cloudProjectId: 01a2cadf-2ebc-42bd-9b0d-5228ab8b3129
+  projectName: RocketAR
+  organizationId: meneghetti
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
