@@ -20,6 +20,8 @@ public class AddressableManager : MonoBehaviour
     public static AddressableManager instance = null;
 
     [SerializeField] AssetLabelReference stationLabel;
+    [SerializeField] AssetReference sceneAsset1;
+    [SerializeField] AssetReference sceneAsset2;
 
     private void Awake()
     {
@@ -38,5 +40,10 @@ public class AddressableManager : MonoBehaviour
     public void LoadAllAssetsButtonTest() // Just a test method
     {
         AddressableManager.instance.LoadAllAssets();
+    }
+
+    public void LoadAssetSceneButtonTest(int i) // Just a test method
+    {
+        Addressables.LoadScene((i == 0) ? sceneAsset1 : sceneAsset2);
     }
 }

@@ -4,8 +4,15 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-#region Delegates
+    #region Delegates
+    public delegate void GameStateHandler();
+    public GameStateHandler OnGameInitialization;
 
+    public void FireGameInitialization()
+    {
+        currentState = GameState.Initializing;
+        if (OnGameInitialization != null) OnGameInitialization();
+    }
 #endregion
 
     public static GameManager instance = null;
@@ -50,6 +57,7 @@ public class GameManager : MonoBehaviour
 
     private void Initialize() // (WIP) All game initialization will be done here!
     {
+        FireGameInitialization();
         currentState = GameState.GamePlay;
     }
 

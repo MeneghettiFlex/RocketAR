@@ -1718,7 +1718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrusterSpeed: 200
-  rotationSpeed: 30
+  rotationSpeed: 55
   leftThruster: {fileID: 4329058496775074}
   rightThruster: {fileID: 4337579822701566}
   currentState: 0

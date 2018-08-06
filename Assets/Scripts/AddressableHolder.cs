@@ -7,10 +7,12 @@ using UnityEngine.ResourceManagement;
 public class AddressableHolder : MonoBehaviour
 {
     [SerializeField] AssetReference myAddressableAsset;
+    [SerializeField] AssetReference defaultAddressableAsset;
     bool isAALoaded = false;
 
     private void Start()
     {
+        GameManager.instance.OnGameInitialization += OnGameInitialization;
         AddressableManager.instance.OnLoadAll += OnLoadAll;
     }
 
@@ -19,11 +21,16 @@ public class AddressableHolder : MonoBehaviour
         StartCoroutine(LoadMyAsset());
     }
 
+    void OnGameInitialization()
+    {
+        
+    }
+
     IEnumerator LoadMyAsset() // Loads and then instantiate the Asset.
     {
         yield return myAddressableAsset.LoadAsset<GameObject>();
 
-        Destroy(transform.GetChild(0).gameObject);
+        //Destroy(transform.GetChild(0).gameObject);
         myAddressableAsset.Instantiate<GameObject>(this.transform);
     }
 

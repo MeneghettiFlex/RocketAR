@@ -54,7 +54,29 @@ MonoBehaviour:
     m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
     m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
-    m_serializeEntries: []
+    m_serializeEntries:
+    - m_guid: 297e751076bdd4b53a9e01a03a5fccad
+      m_address: RefuellingStation_Default
+      m_readOnly: 0
+      m_serializedLabels:
+      - default
+      - Stations
+    - m_guid: 57b537d9f68ae4edca36efabf47ac7fc
+      m_address: Assets/Scenes/ARScene.unity
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: a6c343d0ad900422a848aaf060b2eb01
+      m_address: LaunchPad_Default
+      m_readOnly: 0
+      m_serializedLabels:
+      - default
+      - Stations
+    - m_guid: ffbb80ef8769c4d849f98942447a9414
+      m_address: LandingPad_Default
+      m_readOnly: 0
+      m_serializedLabels:
+      - default
+      - Stations
     m_readOnly: 0
   - m_name: UnityEditor.AddressableAssets.BundledAssetGroupProcessor Group
     m_data:
@@ -91,6 +113,10 @@ MonoBehaviour:
       m_readOnly: 0
       m_serializedLabels:
       - Stations
+    - m_guid: 561f3871252bf4bd68b7db7be8f15606
+      m_address: TestSceneAsset
+      m_readOnly: 0
+      m_serializedLabels: []
     - m_guid: f0e2a19113c7f4c94b8751532891e11e
       m_address: RefuellingStation
       m_readOnly: 0
